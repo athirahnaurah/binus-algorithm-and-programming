@@ -26,9 +26,9 @@ int main(){
 
 
     // Output
-    printf("\nAddition \n %d + %d + %d = %d\n",a,b,c,resultSum);
-    printf("Substraction \n %d - %d - %d = %d\n",a,b,c,resultDiff);
-    printf("Multiplication \n %d * %d * %d = %d\n",a,b,c,resultProd);
+    printf("\nAddition \n %d + %d + %d = %d\n",a,b,c,resultSum); // using format specifier %d for print result addition / output integer
+    printf("Substraction \n %d - %d - %d = %d\n",a,b,c,resultDiff); // using format specifier %d for print result substraction / output integer
+    printf("Multiplication \n %d * %d * %d = %d\n",a,b,c,resultProd); // using format specifier %d for print result multiplication / output integer
     printf("Division \n %d / %d / %d = %f\n\n",a,b,c,div); // using format specifier %f for print div / output decimal
     printf("The average of %d, %d, and %d is %f\n",a,b,c,average); // using format specifier %.2f for print average / output decimal with 2 digit after comma
 
